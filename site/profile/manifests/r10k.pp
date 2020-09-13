@@ -3,7 +3,6 @@ class profile::r10k {
     remote => 'https://github.com/altoboxen/control-repo',
   }
   
-  # This is
   class {'r10k::webhook::config':
     use_mcollective => false,
     enable_ssl      => false,
